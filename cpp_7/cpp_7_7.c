@@ -10,12 +10,14 @@
 int main()
 {
 	float money,taxes,hour,money1,realmoney;
-	money=taxes=hour=money1=realmoney;
+	money=taxes=hour=money1=
+
+	realmoney;
 	float n;
 	scanf("%f",&n);
 	if(n>limit)
 	hour=limit+(n-limit)*time;
-
+				
 	money=hour*salary;
 	
 	if(money<=dollar_1)
